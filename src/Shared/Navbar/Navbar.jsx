@@ -1,7 +1,7 @@
 
 
 import {  NavLink } from "react-router-dom";
-
+import logo from "../../assets/stylespace-high-resolution-logo-transparent.png"
 
 const Navbar = () => {
     const navRoutes=(
@@ -36,7 +36,7 @@ const Navbar = () => {
             {navRoutes}
             </ul>
           </div>
-          <p className=" text-xl font-serif font-bold">StyleSpace</p>
+          <img src={logo} className="w-28 "></img>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className=" menu-horizontal  ">
