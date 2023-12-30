@@ -10,8 +10,8 @@ import img8 from "../../assets/Vector.png";
 const Hero = () => {
   return (
     <div className="grid md:grid-cols-3 ">
-      <div className="relative top-16  p-8 md:top-28 md:left-0 ">
-        <p className="text-orange-400 mb-3 text-3xl">
+      <div className="relative top-16  px-5 md:px-0 md:top-28 md:left-0 ">
+        <p className="text-[#F85A47] mb-3 text-3xl">
           RESIDENTIAL & OFFICE SPACES
         </p>
         <h1 className="text-4xl font-bold font-serif mb-3">
@@ -30,7 +30,7 @@ const Hero = () => {
             />
           </div>
           <div>
-            <button className="btn bg-orange-500 w-32" type="submit">
+            <button className="btn bg-[#F85A47] w-32" type="submit">
               Search
             </button>
           </div>

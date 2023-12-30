@@ -7,7 +7,7 @@ const Navbar = () => {
     const navRoutes=(
       <>
         <li>
-            <NavLink to="/" className="nl  ml-10 font-serif font-bold">Home</NavLink>
+            <NavLink to="/" className="nl  ml-3 font-serif font-bold">Home</NavLink>
         </li>
         <li>
             <NavLink to="/about" className="nl  ml-10 font-serif font-bold" >About</NavLink>
@@ -26,7 +26,7 @@ const Navbar = () => {
         </li>
     </>)
     return (
-        <div className="navbar z-10 fixed px-5 md:px-10">
+        <div className="navbar z-20 fixed md:pl-20 px-1">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -6,6 +6,11 @@ import Services from "../Pages/Services/Services";
 import Blog from "../Pages/Blog/Blog";
 import Portfolio from "../Pages/Portfolio/Portfolio";
 import Contact from "../Pages/Contact/Contact";
+import PropertiesLayout from "../Layout/PropertiesLayout";
+import Residential from "../Components/Residential/Residential";
+import Commercial from "../Components/Commercial/Commercial";
+import Agriculturer from "../Components/Agriculturer/Agriculturer";
+import Industrial from "../Components/Industrial/Industrial";
 
 const router = createBrowserRouter([
     {
@@ -38,6 +43,28 @@ const router = createBrowserRouter([
         },
       ],
     },
+    {
+      path: "/",
+      element:<PropertiesLayout></PropertiesLayout>,
+    children: [
+      {
+        path: "/properties/residential",
+        element:<Residential></Residential>,
+      }, 
+      {
+        path: "/properties/commercial",
+        element:<Commercial/>,
+      }, 
+      {
+        path: "/properties/agriculturer",
+        element:<Agriculturer/>,
+      }, 
+      {
+        path: "/properties/insustrial",
+        element:<Industrial/>,
+      }
+    ] 
+    }
   ]);
 
 export default router;
