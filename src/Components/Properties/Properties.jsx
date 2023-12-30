@@ -21,12 +21,12 @@ const Properties = () => {
       </>)
     return (
         <div className="mt-28  md:px-0">
-           <div className="flex px-3 justify-between">
-            <div className="w-[461px]  ">
+           <div className="md:flex md:px-3 p-3  md:justify-between">
+            <div className="md:w-[461px]  ">
               {useTitle("Best Real Estate Deals")}
-              <p className="text-2xl font-thin">Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect.</p>
+              <p className="text-2xl font-thin mb-5 md:mb-0">Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect.</p>
             </div>
-            <div className="mt-20">
+            <div className="md:mt-20">
            
             <button className="rounded-md text-white bg-[#F85A47] md:w-48 w-36 h-16 md:h-16" >
             View All Property
