@@ -21,19 +21,18 @@ const Hero = () => {
           Much did had call new drew that kept. Limits expect wonder law she.
           Now has you views woman noisy match money rooms.
         </p>
-        <div className="form-control mt-10 flex flex-row">
-          <div>
+        <div className="form-control mt-10 ">
+          <div className="join">
             <input
               type="text"
               placeholder="Search Properties"
-              className="input input-bordered  md:w-96"
+              className="input input-bordered  md:w-full join-item"
             />
-          </div>
-          <div>
-            <button className="btn bg-[#F85A47] w-32" type="submit">
+              <button className=" join-item text-white   bg-[#F85A47] w-32" type="submit">
               Search
             </button>
           </div>
+        
         </div>
         
         <div>
