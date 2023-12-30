@@ -6,9 +6,10 @@ import img5 from "../../assets/Vector (2).png";
 import img6 from "../../assets/Vector (3).png";
 import img7 from "../../assets/Vector (4).png";
 import img8 from "../../assets/Vector.png";
+
 const Hero = () => {
   return (
-    <div className="grid md:grid-cols-3">
+    <div className="grid md:grid-cols-3 ">
       <div className="relative top-16  p-8 md:top-28 md:left-0 ">
         <p className="text-orange-400 mb-3 text-3xl">
           RESIDENTIAL & OFFICE SPACES
@@ -34,10 +35,12 @@ const Hero = () => {
             </button>
           </div>
         </div>
+        
         <div>
           <p className="mt-10 text-3xl font-serif font-bold">
             Our Amazing Partners
           </p>
+         
           <div className="flex gap-3 py-5 md:gap-32 md:py-10">
             <img src={img3} alt="" />
             <img src={img4} alt="" />

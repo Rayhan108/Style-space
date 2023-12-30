@@ -1,3 +1,4 @@
+import Works from "../../Components/Works/Works";
 import Hero from "./Hero";
 
 
@@ -5,7 +6,8 @@ const Home = () => {
     return (
         <div>
             <Hero></Hero>
-            <p>this is home page</p>
+            <Works></Works>
+          
         </div>
     );
 };
