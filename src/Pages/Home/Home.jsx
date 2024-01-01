@@ -1,3 +1,4 @@
+import ClientSays from "../../Components/ClientSays/ClientSays";
 import Feature from "../../Components/Feature/Feature";
 import Properties from "../../Components/Properties/Properties";
 import Works from "../../Components/Works/Works";
@@ -11,6 +12,7 @@ const Home = () => {
             <Works></Works>
           <Properties/>
           <Feature></Feature>
+          <ClientSays></ClientSays>
         </div>
     );
 };

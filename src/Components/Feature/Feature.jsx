@@ -1,6 +1,6 @@
 import useTitle from "../../hooks/useTitle";
 import img1 from "../../assets/Header Image.png";
-import img2 from "../../assets/Image (2).png";
+import img2 from "../../assets/Image.png";
 
 
 const Feature = () => {
