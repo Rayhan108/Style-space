@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 // import './styles.css';
 
 // import required modules
-import {Pagination ,Navigation} from 'swiper/modules';
+import {Pagination ,Navigation, Autoplay,} from 'swiper/modules';
 
 import '@smastrom/react-rating/style.css'
 
@@ -80,11 +80,15 @@ const ClientSays = () => {
           </h1>
         
             <Swiper
+            autoplay={{
+                delay: 1000,
+              
+              }}
             navigation={true}
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination,Navigation]}
+        modules={[Pagination,Navigation, Autoplay]}
         className="mySwiper"
       >
         {
