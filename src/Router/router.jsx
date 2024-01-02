@@ -4,13 +4,14 @@ import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Services from "../Pages/Services/Services";
 import Blog from "../Pages/Blog/Blog";
-import Portfolio from "../Pages/Portfolio/Portfolio";
+import Portfolio from "../Pages/Gallary/Gallary";
 import Contact from "../Pages/Contact/Contact";
 import PropertiesLayout from "../Layout/PropertiesLayout";
 import Residential from "../Components/Residential/Residential";
 import Commercial from "../Components/Commercial/Commercial";
 import Agriculturer from "../Components/Agriculturer/Agriculturer";
 import Industrial from "../Components/Industrial/Industrial";
+import OtherPages from "../Layout/OtherPages";
 
 const router = createBrowserRouter([
     {
@@ -21,26 +22,34 @@ const router = createBrowserRouter([
           path: "/",
           element:<Home></Home>,
         },
+       
+      ],
+    },
+    {
+        path: "/othersPages",
+        element:<OtherPages></OtherPages>,
+      children: [
         {
-          path: "/about",
+          path: "/othersPages/about",
           element:<About></About>,
         },
         {
-          path: "/services",
+          path: "/othersPages/services",
           element:<Services></Services>,
         },
         {
-          path: "/blog",
+          path: "/othersPages/blog",
           element:<Blog></Blog>,
         },
         {
-          path: "/portfolio",
+          path: "/othersPages/gallary",
           element:<Portfolio></Portfolio>,
         },
         {
-          path: "/contact",
+          path: "/othersPages/contact",
           element:<Contact></Contact>,
         },
+       
       ],
     },
     {

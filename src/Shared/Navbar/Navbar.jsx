@@ -10,23 +10,23 @@ const Navbar = () => {
             <NavLink to="/" className="nl  ml-3 font-serif font-bold">Home</NavLink>
         </li>
         <li>
-            <NavLink to="/about" className="nl  ml-10 font-serif font-bold" >About</NavLink>
+            <NavLink to="/othersPages/about" className="nl  ml-10 font-serif font-bold" >About</NavLink>
         </li>
         <li>
-            <NavLink to="/services" className="nl ml-10 font-serif font-bold" >Services</NavLink>
+            <NavLink to="/othersPages/services" className="nl ml-10 font-serif font-bold" >Services</NavLink>
         </li>
         <li>
-            <NavLink to="/portfolio" className="nl ml-10 font-serif font-bold" >Portfolio</NavLink>
+            <NavLink to="/othersPages/gallary" className="nl ml-10 font-serif font-bold" >Gallary</NavLink>
         </li>
         <li>
-            <NavLink to="/blog" className="nl ml-10 font-serif font-bold" >Blog</NavLink>
+            <NavLink to="/othersPages/blog" className="nl ml-10 font-serif font-bold" >Blog</NavLink>
         </li>
         <li>
-            <NavLink to="/contact" className="nl ml-10 font-serif font-bold" >Contact</NavLink>
+            <NavLink to="/othersPages/contact" className="nl ml-10 font-serif font-bold" >Contact</NavLink>
         </li>
     </>)
     return (
-        <div className="navbar z-20 fixed md:pl-20 px-1">
+        <div className="navbar z-20 fixed  md:px-16">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
