@@ -8,7 +8,7 @@ const About = () => {
     <div >
       <Banner tittle={"About Us"}></Banner>
       <p className="text-center font-bold text-3xl mt-10 mb-10">Our Story</p>
-      <div className="md:flex md:justify-around justify-center px-10  gap-20 md:px-20">
+      <div className="md:flex   md:justify-around justify-center px-10  gap-20 md:px-20">
         <div>
           <img className=" md:h-[900px] md:w-[2100px]" src={img1} alt="" />
         </div>

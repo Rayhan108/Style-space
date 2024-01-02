@@ -12,7 +12,7 @@ const Feature = () => {
           <div className="mt-3 ">
             <img className="w-[325px] h-[226px] md:w-full md:h-full" src={img1} alt="" />
           </div>
-          <div className="relative -top-36 md:-top-96 left-3 md:left-3 z-10 ">
+          <div className="relative -top-36 md:-top-[400px] left-3 md:left-3 z-10 ">
             <img className="w-[294px] h-[212px] md:w-full md:h-full" src={img2} alt="" />
           </div>
         </div>
