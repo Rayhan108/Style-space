@@ -11,3 +11,8 @@
     color: orangered;
     text-decoration: underline 2px;
 }
+.thumbs-wrapper{
+    display: flex;
+    justify-content: center;
+    
+}

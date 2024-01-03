@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <Banner tittle={"Contact With Us"}></Banner>
-     
+      <h1 className="py-10 text-center font-serif text-3xl font-bold">Our Office Location</h1>
       <div className="md:flex mt-10 px-5 md:px-20 ">
         <div className="border-black md:w-1/2 md:border-r-0 border-2 md:h-[450px] py-10 px-20 md:py-28 md:px-48 bg-[#dcfbfb]">
           <h1 className="text-3xl font-bold py-2">Our Office</h1>
