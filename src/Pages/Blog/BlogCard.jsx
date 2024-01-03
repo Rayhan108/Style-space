@@ -4,7 +4,7 @@ const BlogCard = ({data}) => {
   
  const {t1,t2,date,para,img}=data;
     return (
-        <div className="card md:card-side p-5 border-2 shadow-xl">
+        <div data-aos="fade-up" className="card md:card-side p-5 border-2 shadow-xl">
   <figure><img src={img} /></figure>
    
   <div className="md:px-10 md:py-20 mt-5 md:mt-0">

@@ -7,7 +7,7 @@ const Feature = () => {
   return (
     <>
       <h1 className="text-center">{useTitle("Featured Listing of the Week")}</h1>
-      <div className="bg-[#F1FFFF]  md:py-5 p-5 grid md:flex md:flex-row md:justify-between  md:h-[748px]">
+      <div data-aos="fade-up" className="bg-[#F1FFFF]  md:py-5 p-5 grid md:flex md:flex-row md:justify-between  md:h-[748px]">
         <div className="-[325px] h-[226px] md:w-full md:h-full">
           <div className="mt-3 ">
             <img className="w-[325px] h-[226px] md:w-full md:h-full" src={img1} alt="" />

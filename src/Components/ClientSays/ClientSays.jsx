@@ -73,49 +73,51 @@ const ClientSays = () => {
 
     // const [says,setSays]=useState([]);
     return (
-        <div>
+        <>
+            <h1 className="text-center mt-20">
+               {useTitle("Loved by businesses, and individuals across the globe.")} 
+            </h1>
+        <div data-aos="fade-up">
             
-          <h1 className="text-center mt-20">
-             {useTitle("Loved by businesses, and individuals across the globe.")} 
-          </h1>
+          
+              <Swiper
+              autoplay={{
+                  delay: 1000,
+                
+                }}
+              navigation={true}
+          pagination={{
+            dynamicBullets: true,
+          }}
+          modules={[Pagination,Navigation, Autoplay]}
+          className="mySwiper"
+        >
+          {
+              says.map((say,id)=>((<SwiperSlide key={id} say={say}>
+                  
+  <div className="">
         
-            <Swiper
-            autoplay={{
-                delay: 1000,
-              
-              }}
-            navigation={true}
-        pagination={{
-          dynamicBullets: true,
-        }}
-        modules={[Pagination,Navigation, Autoplay]}
-        className="mySwiper"
-      >
-        {
-            says.map((say,id)=>((<SwiperSlide key={id} say={say}>
-                
-<div className="">
-      
-      <div className="card-body items-center text-center">
-      <Rating style={{ maxWidth: 250 }} value={say?.ratting} readOnly></Rating>
-        <p>{say?.says}</p>
-      </div>
-      <div className="flex text-center justify-center mb-10">
-          <img className="mr-3 " src={say?.img} alt="" />
-          <div className="py-3">
-              <p className="font-bold">{say?.name}</p>
-              <p className="text-sm font-thin">{say?.location}</p>
-          </div>
-      </div>
-    </div>
-
-
-                
-            </SwiperSlide>))
-           )}
-      
-      </Swiper>
+        <div className="card-body items-center text-center">
+        <Rating style={{ maxWidth: 250 }} value={say?.ratting} readOnly></Rating>
+          <p>{say?.says}</p>
         </div>
+        <div className="flex text-center justify-center mb-10">
+            <img className="mr-3 " src={say?.img} alt="" />
+            <div className="py-3">
+                <p className="font-bold">{say?.name}</p>
+                <p className="text-sm font-thin">{say?.location}</p>
+            </div>
+        </div>
+      </div>
+  
+  
+                  
+              </SwiperSlide>))
+             )}
+        
+        </Swiper>
+          </div>
+        </>
     );
 };
 

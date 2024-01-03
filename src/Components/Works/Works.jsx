@@ -11,7 +11,7 @@ const Works = () => {
 
       {useTitle("How It Works?")}
     </h1>
-      <div className="grid md:grid-cols-5 md:gap-5 gap-10 px-20 md:px-0 mt-10 mb-10 ">
+      <div data-aos="fade-up" className="grid md:grid-cols-5 md:gap-5 gap-10 px-20 md:px-0 mt-10 mb-10 ">
         <div className="w-56 h-48 ">
           {/* <img className="w-[79px] h-[69px]:" src={research} alt="" /> */}
           <div className="text-center">

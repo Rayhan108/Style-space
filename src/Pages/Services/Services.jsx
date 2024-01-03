@@ -25,22 +25,34 @@ const Services = () => {
     return (
         <div>
             <Banner tittle={"Our Services"}></Banner>
-      <div className="">
+      <div className=""
+      
+      >
       <ServicesContent style={"md:flex"} tittle={t1} img={parking} text={text1}></ServicesContent>
       </div>
-      <div className="mt-20">
+      <div className="mt-20"
+      
+      >
       <ServicesContent  tittle={t2} img={safety} text={text2} style={"md:flex md:flex-row-reverse"}></ServicesContent>
       </div>
-      <div className="">
+      <div className=""
+      
+      >
       <ServicesContent style={"md:flex"} tittle={t3} img={green} text={text3}></ServicesContent>
       </div>
-      <div className="mt-20">
+      <div className="mt-20"
+      
+      >
       <ServicesContent  tittle={t4} img={kindergarden} text={text4} style={"md:flex md:flex-row-reverse"}></ServicesContent>
       </div>
-      <div className="">
+      <div className=""
+      
+      >
       <ServicesContent style={"md:flex"} tittle={t5} img={sports} text={text5}></ServicesContent>
       </div>
-      <div className="mt-20">
+      <div className="mt-20"
+      
+      >
       <ServicesContent  tittle={t6} img={commercial} text={text6} style={"md:flex md:flex-row-reverse"}></ServicesContent>
       </div>
         </div>

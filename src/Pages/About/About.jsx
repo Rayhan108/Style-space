@@ -9,10 +9,10 @@ const About = () => {
       <Banner tittle={"About Us"}></Banner>
       <p className="text-center font-bold text-3xl mt-10 mb-10">Our Story</p>
       <div className="md:flex   md:justify-around justify-center px-10  gap-20 md:px-20">
-        <div>
+        <div data-aos="fade-right">
           <img className=" md:h-[900px] md:w-[2100px]" src={img1} alt="" />
         </div>
-        <div className="py-10">
+        <div data-aos="fade-down" className="py-10">
         
           <p className="font-thin text-xl">
             New district in Old Tbilisi is one more large project of Alpha
@@ -42,7 +42,7 @@ const About = () => {
             </button>
           </a>
         </div>
-        <img className="md:h-[500px] w-full mt-10" src={img2} alt="" />
+        <img data-aos="fade-up" className="md:h-[500px] w-full mt-10" src={img2} alt="" />
         </div>
       </div>
     </div>

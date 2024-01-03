@@ -20,7 +20,7 @@ const Properties = () => {
       
       </>)
     return (
-        <div className="mt-28 px-4 md:px-0">
+        <div className="mt-28 px-4 md:px-0" data-aos="fade-up">
            <div className="md:flex md:px-3 p-3  md:justify-between">
             <div className="md:w-[461px]  ">
               {useTitle("Best Real Estate Deals")}

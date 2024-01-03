@@ -1,7 +1,13 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 const ServicesContent = ({ tittle, img, text,style}) => {
   return (
     <div>
-      <div className={` ${style} md:justify-around justify-center px-10  gap-20 md:px-20`}>
+      <div
+      data-aos="fade-up"
+      className={` ${style} md:justify-around justify-center px-10  gap-20 md:px-20`}>
         <div>
           <img className=" md:h-[500px] md:w-[900px]" src={img} alt="" />
         </div>
