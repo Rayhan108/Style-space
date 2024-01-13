@@ -7,22 +7,22 @@ const Navbar = () => {
     const navRoutes=(
       <>
         <li>
-            <NavLink to="/" className="nl  ml-3 font-serif font-bold">Home</NavLink>
+            <NavLink to="/" className="nl ml-0 md:ml-3 font-serif font-bold">Home</NavLink>
         </li>
         <li>
-            <NavLink to="/othersPages/about" className="nl  ml-10 font-serif font-bold" >About</NavLink>
+            <NavLink to="/othersPages/about" className="nl ml-0 md:ml-10 font-serif font-bold" >About</NavLink>
         </li>
         <li>
-            <NavLink to="/othersPages/services" className="nl ml-10 font-serif font-bold" >Services</NavLink>
+            <NavLink to="/othersPages/services" className="nl ml-0 md:ml-10 font-serif font-bold" >Services</NavLink>
         </li>
         <li>
-            <NavLink to="/othersPages/gallary" className="nl ml-10 font-serif font-bold" >Gallary</NavLink>
+            <NavLink to="/othersPages/gallary" className="nl ml-0 md:ml-10 font-serif font-bold" >Gallary</NavLink>
         </li>
         <li>
-            <NavLink to="/othersPages/blog" className="nl ml-10 font-serif font-bold" >Blog</NavLink>
+            <NavLink to="/othersPages/blog" className="nl ml-0 md:ml-10 font-serif font-bold" >Blog</NavLink>
         </li>
         <li>
-            <NavLink to="/othersPages/contact" className="nl ml-10 font-serif font-bold" >Contact</NavLink>
+            <NavLink to="/othersPages/contact" className="nl ml-0 md:ml-10 font-serif font-bold" >Contact</NavLink>
         </li>
     </>)
     return (
